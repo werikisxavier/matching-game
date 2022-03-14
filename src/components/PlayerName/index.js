@@ -1,9 +1,9 @@
 import './style.css';
 
-function PlayerName(number){
+function PlayerName(content){
     return `
     <article class= "player-name">
-        <h1> Player ${number}</h1>
+        <h1>${content}</h1>
     </article>
     `
 }
