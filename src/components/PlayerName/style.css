@@ -1,7 +1,4 @@
 .player-name {
-  display: flex;
-  flex-wrap: wrap;
-  font-family: var(--font-press-start);
   font-size: 10px;
   color: var(--color-floral-white);
   margin-bottom: 20px;
