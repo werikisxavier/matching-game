@@ -7,6 +7,7 @@
   position: relative;
   transform-style: preserve-3d;
   transition: transform 400ms ease-in-out;
+  cursor: pointer;
 }
 
 .card-front-back.-active {
@@ -26,5 +27,7 @@ transform: rotateY(180deg);
 .card-front-back >.card.-back > .card-game {
  background-color: var(--color-fiery-rose);
 }
+
+
 
 
