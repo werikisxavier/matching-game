@@ -11,7 +11,7 @@ const $root = document.querySelector("#root");
 $root.insertAdjacentHTML("beforeend",
 `
 ${ScoreBoard("Player1","Player2")}
-${BoardGame(6)}
+${BoardGame(2)}
 
 `);
 
