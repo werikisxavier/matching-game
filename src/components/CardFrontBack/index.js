@@ -1,11 +1,11 @@
 import './style.css';
 import CardGame from "../CardGame";
 
-function CardFrontBack() {
+function CardFrontBack(imageSource,altImage) {
   return /*html*/ `
 <article class= "card-front-back">
 ${CardGame()}
-${CardGame()}
+${CardGame(imageSource,altImage)}
 </article>
 `;
 }
