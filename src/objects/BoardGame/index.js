@@ -3,7 +3,7 @@ import "./style.css";
 
 function BoardGame(amountCards) {
   
-  const $htmlCardFrontBack = CardFrontBack();
+  const $htmlCardFrontBack = CardFrontBack("logo-css","Logo CSS");
   const $htmlContent = $htmlCardFrontBack.repeat(amountCards);
 
   return `
